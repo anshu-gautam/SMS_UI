@@ -11,7 +11,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### Backend REST API:
 
-- Please visit this `<to be updated>` repo to setup the API app
+- Please visit [this](https://github.com/anshu-gautam/sms-api) repo to setup the API app
 
 ### Libraries used:
 
