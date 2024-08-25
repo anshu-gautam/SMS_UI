@@ -32,6 +32,10 @@ export default function Navbar() {
     router.push("/signIn");
   };
 
+  if (!authHelpers.isUserLoggedIn()) {
+    router.push("/signIn");
+  }
+
   useEffect(() => {
     setUserName(authHelpers.getUser() || "");
   }, []);

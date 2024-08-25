@@ -32,7 +32,7 @@ const DeleteDialog = ({ student, refetch }) => {
   };
 
   return (
-    <AlertDialog open={open} className="bg-white">
+    <AlertDialog open={open} onOpenChange={setOpen} className="bg-white">
       <AlertDialogTrigger
         className="text-sm pl-2 py-1 w-full text-left"
         onClick={() => setOpen(true)}

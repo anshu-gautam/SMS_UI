@@ -18,7 +18,7 @@ export default function EditDialog({ student, refetch }) {
   };
 
   return (
-    <Dialog open={isOpen}>
+    <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger
         className="text-sm pl-2 py-1 w-full text-left"
         onClick={() => setIsOpen(true)}
